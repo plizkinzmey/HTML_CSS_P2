@@ -1,0 +1,399 @@
+@font-face {
+    font-family: 'fontello';
+    src: url("font/fontello.ttf");
+}
+
+body {
+
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1280px;
+    padding: 0 0 10px 0;
+    background-color: #445162;
+    float: left;
+}
+
+.headPlusUl {
+    float: left;
+}
+
+.headProductName {
+    display: block;
+    width: 400px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial", "serif";
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.headMenu {
+    list-style-type: none;
+}
+
+.headMenu li::before {
+    content: '\E800';
+    color: #ffffff;
+    padding-right: 5px;
+    font-family: 'fontello', 'serif';
+    font-size: 25px;
+}
+
+.headMenu li {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial", "serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 469px;
+    height: 214px;
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+}
+
+.aboutProduct {
+    width: 1280px;
+    padding: 0 0 50px 0;
+    float: left;
+}
+
+.section_2 {
+    float: left;
+}
+
+.aboutProduct h1 {
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-family: "Arial", "serif";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 50px;
+    margin-top: 49px;
+}
+
+.aboutProduct p {
+    width: 649px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial", "serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-top: 30px;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.video {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+}
+
+.dignity {
+    width: 1280px;
+    background: #f5f5f5;
+    float: left;
+}
+
+.dignityMainSectionLeft {
+    margin-left: 50px;
+    width: 570px;
+    float: left;
+}
+
+.dignityMainSectionRight {
+    margin-right: 73px;
+    float: right;
+    width: 570px;
+}
+
+.dignityPlusUl {
+    list-style-type: none;
+}
+
+.dignityPlusUl li {
+
+    width: 524px;
+    color: #333333;
+    font-family: "Arial", "serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 35px;
+    display: flex;
+}
+
+.dignityPlusUl li:before {
+
+    content: '\F0FE';
+    color: #445161;
+    font-family: 'fontello', 'serif';
+    font-size: 40px;
+    margin-top: 8px;
+    padding: 0 9px 0 0;
+}
+
+.screenshots {
+    /* Style for "bg" */
+    width: 1280px;
+    padding: 0 0 50px 0;
+    float: left;
+}
+
+.screenshots h1, .reviews h1, .dignity h1, .buyIt h1 {
+    height: 22px;
+    color: #445161;
+    font-family: "Arial", "serif";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 51px;
+    vertical-align: top;
+    padding: 0 0 29px 0;
+}
+
+.scrMainSectionLeft {
+    margin-left: 50px;
+    width: 571px;
+    float: left;
+}
+
+.scrMainSectionRight {
+    margin-right: 76px;
+    width: 571px;
+    float: right;
+}
+
+.figure {
+    width: 580px;
+    float: left;
+}
+
+.black_box_small {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-top: 5px;
+}
+
+
+.screenshots span {
+    color: #445161;
+    font-family: "Arial", "serif";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    /* padding-bottom: 15px;*/
+    display: block;
+    padding-left: 10px;
+    float: left;
+}
+
+.screenshots p {
+    width: 361px;
+    color: #333333;
+    font-family: "Arial", "serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 10px;
+    float: left;
+}
+
+.reviews {
+    width: 1280px;
+    float: left;
+    background: #f5f5f5;
+    padding: 0 0 51px 0;
+}
+
+.review_block {
+    float: left;
+}
+
+.reviewsLeft {
+    width: 615px;
+    float: left;
+}
+
+.reviewsRight {
+    width: 615px;
+    float: right;
+    margin-right: 50px;
+}
+
+.review_avatar {
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 35px;
+    float: left;
+    display: block;
+}
+
+.review_textbox {
+    border-radius: 10px;
+    width: 440px;
+    background: #ebebeb;
+    float: right;
+    padding: 0 16px 0 16px;
+    display: inline;
+    margin-top: 35px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.review_textbox p {
+    color: #333333;
+    font-family: "Arial", "serif";
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.review_textbox:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ebebeb transparent transparent;
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: 30px;
+}
+
+.review_footer {
+    width: 70px;
+    color: #989898;
+    font-family: "Arial", "serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0 0 16px 0;
+}
+
+.buyIt {
+    width: 1280px;
+    float: left;
+    padding: 0 0 50px 0;
+}
+
+.sectionPrice {
+    width: 304px;
+    margin-top: 100px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 145px;
+}
+
+.sectionPrice2 {
+    width: 304px;
+    margin-top: 100px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.sectionPrice h1, .sectionPrice2 h1 {
+    width: 304px;
+    color: #ffffff;
+    font-family: "Arial", "serif";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    padding: 10px 0 16px 0;
+    background: #445162;
+    display: block;
+    float: left;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sectionPrice span, .sectionPrice2 span {
+    width: 300px;
+    padding: 18px 0 18px 0;
+    border: 2px solid #445162;
+    color: #445162;
+    font-family: "Arial", "serif";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+
+.sectionPrice ol, .sectionPrice2 ol {
+    width: 284px;
+    background: #445162;
+    color: #ffffff;
+    font-family: "Arial", "serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 19px 0 0 20px;
+    list-style-position: inside;
+}
+
+.button {
+    width: 264px;
+    float: left;
+    background: #445162;
+    padding: 20px 20px 20px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.button a {
+    display: block;
+    box-shadow: 0 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    margin: 0;
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.button a:hover {
+    color: darkgreen;
+}

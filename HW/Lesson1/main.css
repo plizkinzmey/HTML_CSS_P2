@@ -3,7 +3,6 @@
     position: relative;
     width: 1280px;
     margin: 0 auto;
-    position: relative;
 
 }
 
@@ -20,7 +19,7 @@
     height: 44px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 60px;
     font-weight: 400;
     margin-left: 50px;
@@ -47,11 +46,12 @@
 .check_text {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
     padding-left: 10px;
+    display: inline;
 }
 
 .section_1 {
@@ -72,7 +72,7 @@
     width: 254px;
     height: 28px;
     color: #445161;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
@@ -84,7 +84,7 @@
     width: 649px;
     height: 63px;
     color: #333333;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -111,7 +111,7 @@
 .plus h1 {
     height: 28px;
     color: #445161;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
@@ -136,7 +136,7 @@
     width: 528px;
     height: 63px;
     color: #333333;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -167,7 +167,7 @@
     /* Style for "Scrinshots" */
     height: 22px;
     color: #445161;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
@@ -181,11 +181,10 @@
     width: 320px;
     height: 23px;
     color: #445161;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
-    padding-bottom: 15px;
     padding-bottom: 15px;
 
 }
@@ -195,7 +194,7 @@
     width: 361px;
     height: 108px;
     color: #333333;
-    font-family: "Arial";
+    font-family: "Arial", "serif";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -226,4 +225,8 @@
     float: left;
     padding-left: 10px;
 
+}
+
+.review_avatar {
+    border-radius: 100%;
 }
