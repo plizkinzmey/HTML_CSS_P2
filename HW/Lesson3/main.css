@@ -67,6 +67,7 @@ body {
     width: 1280px;
     padding: 0 0 50px 0;
     float: left;
+    background-color: #ffffff;
 }
 
 .section_2 {
@@ -154,10 +155,10 @@ body {
 }
 
 .screenshots {
-    /* Style for "bg" */
     width: 1280px;
     padding: 0 0 50px 0;
     float: left;
+    background-color: #ffffff;
 }
 
 .screenshots h1, .reviews h1, .dignity h1, .buyIt h1 {
@@ -301,6 +302,7 @@ body {
     width: 1280px;
     float: left;
     padding: 0 0 50px 0;
+    background-color: #ffffff;
 }
 
 .sectionPrice {
