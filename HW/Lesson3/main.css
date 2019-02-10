@@ -38,7 +38,7 @@ body {
 }
 
 .headMenu li::before {
-    content: '\E800';
+    content: '\E802';
     color: #ffffff;
     padding-right: 5px;
     font-family: 'fontello', 'serif';
@@ -74,7 +74,7 @@ body {
 }
 
 .aboutProduct h1 {
-    width: 254px;
+    width: 300px;
     height: 28px;
     color: #445161;
     font-family: "Arial", "serif";
@@ -396,4 +396,187 @@ body {
 
 .button a:hover {
     color: darkgreen;
+}
+
+.contacts {
+    width: 1280px;
+    background-color: #445162;
+    float: left;
+    padding: 0 0 49px 0;
+}
+
+.contacts h1 {
+    height: 22px;
+    color: #ffffff;
+    font-family: "Arial", "serif";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 51px;
+    vertical-align: top;
+    padding: 0 0 29px 0;
+}
+
+.yourContactData {
+    margin-left: 249px;
+    width: 496px;
+    float: left;
+
+}
+.contactInputText {
+    width: 496px;
+    height: 34px;
+    border-radius: 5px;
+    color: #445162;
+    font-family: "Arial", "serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 0 0 10px;
+    float: left;
+}
+
+.contactInputEmail {
+    width: 496px;
+    height: 34px;
+    border-radius: 5px;
+    color: #445162;
+    font-family: "Arial", "serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 0 0 10px;
+    margin-top: 21px;
+    float: left;
+    display: block;
+}
+
+.contactTextArea {
+    border-radius: 5px;
+    color: #445162;
+    font-family: "Arial", "serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0 0 10px;
+    margin-top: 21px;
+    resize: none;
+    width: 500px;
+    height: 170px;
+    float: left;
+}
+
+.contactSendButton {
+    width: 264px;
+    background: #445162;
+    padding: 20px 20px 20px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+.contactSendButton a {
+    box-shadow: 0 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 21px;
+    margin-left: 165px;
+}
+
+.contactSendButton a:hover {
+    color: darkgreen;
+}
+
+.contactAndSocialLink {
+    margin-top: -10px;
+    padding: 0 0 0 10px;
+    float: left;
+
+}
+.contactDataList {
+
+    list-style-type: none;
+}
+
+#skypeIcon:before{
+    content: '\F17E';
+    color: #ffffff;
+    font-family: 'fontello', 'serif';
+    font-size: 30px;
+    margin-top: 8px;
+    padding: 0 9px 0 0;
+}
+
+#icqIcon:before{
+    content: '\F304';
+    color: #ffffff;
+    font-family: 'fontello', 'serif';
+    font-size: 30px;
+    margin-top: 8px;
+    padding: 0 9px 0 0;
+}
+
+#adIcon:before{
+    content: '\E800';
+    color: #ffffff;
+    font-family: 'fontello', 'serif';
+    font-size: 30px;
+    margin-top: 8px;
+    padding: 0 9px 0 0;
+}
+
+#phoneIcon:before{
+    content: '\E801';
+    color: #ffffff;
+    font-family: 'fontello', 'serif';
+    font-size: 30px;
+    margin-top: 8px;
+    padding: 0 9px 0 0;
+}
+
+.contactDataList li {
+    color: #ffffff;
+    font-family: "Arial", "serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 0 20px 10px;
+}
+
+.socialDataList li {
+    display: inline;
+    color: #ffffff;
+    font-family: "fontello", "serif";
+    padding: 0 0 20px 10px;
+    font-size: 40px;
+}
+
+.mainFooter {
+    width: 1280px;
+    height: 3186px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.mainFooter span {
+    width: 284px;
+    height: 11px;
+    color: #445162;
+    font-family: "Arial", "serif";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
