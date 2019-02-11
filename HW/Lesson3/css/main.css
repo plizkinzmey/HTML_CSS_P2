@@ -380,7 +380,7 @@ body {
 
 .button a {
     display: block;
-    box-shadow: 0 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 0 rgba(33, 33, 33, 0.35);
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
@@ -470,7 +470,7 @@ body {
 }
 
 .contact-send-button {
-    box-shadow: 0 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    box-shadow: 0 2px 5px 0 rgba(33, 33, 33, 0.35);
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
@@ -575,5 +575,5 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0;
 }
