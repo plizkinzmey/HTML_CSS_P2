@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fontello';
-    src: url("font/fontello.ttf");
+    src: url("../font/fontello.ttf");
 }
 
 body {
@@ -17,11 +17,11 @@ body {
     float: left;
 }
 
-.headPlusUl {
+.header-plus-ul {
     float: left;
 }
 
-.headProductName {
+.header-product-name {
     display: block;
     width: 400px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
@@ -33,11 +33,11 @@ body {
     margin-top: 50px;
 }
 
-.headMenu {
+.header-menu {
     list-style-type: none;
 }
 
-.headMenu li::before {
+.header-menu li::before {
     content: '\E802';
     color: #ffffff;
     padding-right: 5px;
@@ -45,7 +45,7 @@ body {
     font-size: 25px;
 }
 
-.headMenu li {
+.header-menu li {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-family: "Arial", "serif";
@@ -63,18 +63,18 @@ body {
     float: right;
 }
 
-.aboutProduct {
+.about-product {
     width: 1280px;
     padding: 0 0 50px 0;
     float: left;
     background-color: #ffffff;
 }
 
-.section_2 {
+.about-product-textsection {
     float: left;
 }
 
-.aboutProduct h1 {
+.about-product h1 {
     width: 300px;
     height: 28px;
     color: #445161;
@@ -86,7 +86,7 @@ body {
     margin-top: 49px;
 }
 
-.aboutProduct p {
+.about-product p {
     width: 649px;
     height: 63px;
     color: #333333;
@@ -116,23 +116,23 @@ body {
     float: left;
 }
 
-.dignityMainSectionLeft {
+.dignity-mainsection-left {
     margin-left: 50px;
     width: 570px;
     float: left;
 }
 
-.dignityMainSectionRight {
+.dignity-mainsection-right {
     margin-right: 73px;
     float: right;
     width: 570px;
 }
 
-.dignityPlusUl {
+.dignity-plus-ul {
     list-style-type: none;
 }
 
-.dignityPlusUl li {
+.dignity-plus-ul li {
 
     width: 524px;
     color: #333333;
@@ -144,7 +144,7 @@ body {
     display: flex;
 }
 
-.dignityPlusUl li:before {
+.dignity-plus-ul li:before {
 
     content: '\F0FE';
     color: #445161;
@@ -161,7 +161,7 @@ body {
     background-color: #ffffff;
 }
 
-.screenshots h1, .reviews h1, .dignity h1, .buyIt h1 {
+.screenshots h1, .reviews h1, .dignity h1, .buy-it h1 {
     height: 22px;
     color: #445161;
     font-family: "Arial", "serif";
@@ -174,24 +174,24 @@ body {
     padding: 0 0 29px 0;
 }
 
-.scrMainSectionLeft {
+.screenshots-mainsection-left {
     margin-left: 50px;
     width: 571px;
     float: left;
 }
 
-.scrMainSectionRight {
+.screenshots-mainsection-right {
     margin-right: 76px;
     width: 571px;
     float: right;
 }
 
-.figure {
+.screenshots-items {
     width: 580px;
     float: left;
 }
 
-.black_box_small {
+.black-small-box {
     width: 200px;
     height: 150px;
     float: left;
@@ -229,22 +229,22 @@ body {
     padding: 0 0 51px 0;
 }
 
-.review_block {
+.review-block {
     float: left;
 }
 
-.reviewsLeft {
+.reviews-section-left {
     width: 615px;
     float: left;
 }
 
-.reviewsRight {
+.reviews-section-right {
     width: 615px;
     float: right;
     margin-right: 50px;
 }
 
-.review_avatar {
+.review-avatar {
     border-radius: 100%;
     width: 75px;
     height: 75px;
@@ -254,7 +254,7 @@ body {
     display: block;
 }
 
-.review_textbox {
+.review-textbox {
     border-radius: 10px;
     width: 440px;
     background: #ebebeb;
@@ -266,7 +266,7 @@ body {
     position: relative;
 }
 
-.review_textbox p {
+.review-textbox p {
     color: #333333;
     font-family: "Arial", "serif";
     font-style: italic;
@@ -275,7 +275,7 @@ body {
     line-height: 18px;
 }
 
-.review_textbox:before {
+.review-textbox:before {
     content: "";
     width: 0;
     height: 0;
@@ -288,7 +288,7 @@ body {
     top: 30px;
 }
 
-.review_footer {
+.review-footer {
     width: 70px;
     color: #989898;
     font-family: "Arial", "serif";
@@ -298,14 +298,14 @@ body {
     padding: 0 0 16px 0;
 }
 
-.buyIt {
+.buy-it {
     width: 1280px;
     float: left;
     padding: 0 0 50px 0;
     background-color: #ffffff;
 }
 
-.sectionPrice {
+.section-price {
     width: 304px;
     margin-top: 100px;
     vertical-align: bottom;
@@ -313,7 +313,7 @@ body {
     margin-left: 145px;
 }
 
-.sectionPrice2 {
+.section-price2 {
     width: 304px;
     margin-top: 100px;
     vertical-align: bottom;
@@ -321,7 +321,7 @@ body {
     margin-left: 45px;
 }
 
-.sectionPrice h1, .sectionPrice2 h1 {
+.section-price h1, .section-price2 h1 {
     width: 304px;
     color: #ffffff;
     font-family: "Arial", "serif";
@@ -338,7 +338,7 @@ body {
     border-top-right-radius: 5px;
 }
 
-.sectionPrice span, .sectionPrice2 span {
+.section-price span, .section-price2 span {
     width: 300px;
     padding: 18px 0 18px 0;
     border: 2px solid #445162;
@@ -353,7 +353,7 @@ body {
     margin: 0;
 }
 
-.sectionPrice ol, .sectionPrice2 ol {
+.section-price ol, .section-price2 ol {
     width: 284px;
     background: #445162;
     color: #ffffff;
@@ -420,13 +420,13 @@ body {
     padding: 0 0 29px 0;
 }
 
-.yourContactData {
+.your-contact-data {
     margin-left: 249px;
     width: 496px;
     float: left;
 
 }
-.contactInputText {
+.contact-input-text-field {
     width: 496px;
     height: 34px;
     border-radius: 5px;
@@ -439,7 +439,7 @@ body {
     float: left;
 }
 
-.contactInputEmail {
+.contact-input-email-field {
     width: 496px;
     height: 34px;
     border-radius: 5px;
@@ -454,7 +454,7 @@ body {
     display: block;
 }
 
-.contactTextArea {
+.contact-textarea {
     border-radius: 5px;
     color: #445162;
     font-family: "Arial", "serif";
@@ -469,17 +469,7 @@ body {
     float: left;
 }
 
-.contactSendButton {
-    width: 264px;
-    background: #445162;
-    padding: 20px 20px 20px 20px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-
-
-}
-
-.contactSendButton a {
+.contact-send-button {
     box-shadow: 0 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
     text-align: center;
     text-decoration: none;
@@ -497,22 +487,26 @@ body {
     margin-left: 165px;
 }
 
-.contactSendButton a:hover {
+.contact-send-button:hover {
     color: darkgreen;
 }
 
-.contactAndSocialLink {
+.contact-send-button:active {
+    color: aqua;
+}
+
+.contact-and-social-link {
     margin-top: -10px;
     padding: 0 0 0 10px;
     float: left;
 
 }
-.contactDataList {
+.contact-data-list {
 
     list-style-type: none;
 }
 
-#skypeIcon:before{
+#skype-icon:before{
     content: '\F17E';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -521,7 +515,7 @@ body {
     padding: 0 9px 0 0;
 }
 
-#icqIcon:before{
+#icq-icon:before{
     content: '\F304';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -530,7 +524,7 @@ body {
     padding: 0 9px 0 0;
 }
 
-#adIcon:before{
+#ad-icon:before{
     content: '\E800';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -539,7 +533,7 @@ body {
     padding: 0 9px 0 0;
 }
 
-#phoneIcon:before{
+#phone-icon:before{
     content: '\E801';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -548,7 +542,7 @@ body {
     padding: 0 9px 0 0;
 }
 
-.contactDataList li {
+.contact-data-list li {
     color: #ffffff;
     font-family: "Arial", "serif";
     font-size: 16px;
@@ -557,7 +551,7 @@ body {
     padding: 0 0 20px 10px;
 }
 
-.socialDataList li {
+.social-data-list li {
     display: inline;
     color: #ffffff;
     font-family: "fontello", "serif";
@@ -565,7 +559,7 @@ body {
     font-size: 40px;
 }
 
-.mainFooter {
+.main-footer {
     width: 1280px;
     background: #f5f5f5;
     text-align: center;
@@ -573,7 +567,7 @@ body {
     float: left;
 }
 
-.mainFooter span {
+.main-footer span {
     width: 284px;
     height: 11px;
     color: #445162;
