@@ -396,8 +396,9 @@ body {
     background-color: #ffffff;
 }
 
-.button a:hover {
-    color: darkgreen;
+.button a:active {
+    background: #d8e2d4;
+    box-shadow: 0 3px #d8e2d4;
 }
 
 .contacts {
@@ -424,8 +425,8 @@ body {
     margin-left: 249px;
     width: 496px;
     float: left;
-
 }
+
 .contact-input-text-field {
     width: 496px;
     height: 34px;
@@ -487,26 +488,22 @@ body {
     margin-left: 165px;
 }
 
-.contact-send-button:hover {
-    color: darkgreen;
-}
-
 .contact-send-button:active {
-    color: aqua;
+    background: #d8e2d4;
+    box-shadow: 0 3px #d8e2d4;
 }
 
 .contact-and-social-link {
     margin-top: -10px;
     padding: 0 0 0 10px;
     float: left;
-
 }
-.contact-data-list {
 
+.contact-data-list {
     list-style-type: none;
 }
 
-#skype-icon:before{
+#skype-icon:before {
     content: '\F17E';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -515,7 +512,7 @@ body {
     padding: 0 9px 0 0;
 }
 
-#icq-icon:before{
+#icq-icon:before {
     content: '\F304';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -524,7 +521,7 @@ body {
     padding: 0 9px 0 0;
 }
 
-#ad-icon:before{
+#ad-icon:before {
     content: '\E800';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -533,7 +530,7 @@ body {
     padding: 0 9px 0 0;
 }
 
-#phone-icon:before{
+#phone-icon:before {
     content: '\E801';
     color: #ffffff;
     font-family: 'fontello', 'serif';
@@ -552,11 +549,19 @@ body {
 }
 
 .social-data-list li {
-    display: inline;
+    display: inline-flex;
+}
+
+.social-data-list li a {
     color: #ffffff;
     font-family: "fontello", "serif";
     padding: 0 0 20px 10px;
     font-size: 40px;
+    text-decoration: none;
+}
+
+.social-data-list li a:hover {
+    color: #d8e2d4;
 }
 
 .main-footer {
