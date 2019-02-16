@@ -375,7 +375,7 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
-    line-height: 45px;
+    line-height: 40px;
     text-transform: uppercase;
     color: #445162;
     font-size: 18px;
@@ -466,10 +466,7 @@ body {
 
 .contact-send-button {
     box-shadow: 0 2px 5px 0 rgba(33, 33, 33, 0.35);
-    text-align: center;
-    text-decoration: none;
     border-radius: 10px;
-    line-height: 45px;
     text-transform: uppercase;
     color: #445162;
     font-size: 18px;
@@ -479,7 +476,9 @@ body {
     height: 40px;
     background-color: #ffffff;
     margin-top: 21px;
-    margin-left: 165px;
+    margin-left: 180px;
+    border: 0;
+    outline: none;
 }
 
 .contact-send-button:active {
