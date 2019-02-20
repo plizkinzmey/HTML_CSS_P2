@@ -16,7 +16,7 @@ body {
 
 .head {
     width: 1920px;
-    height: 1024px;
+    /* height: 1024px;*/
     background-color: rgba(17, 17, 17, 0.7);
     float: left;
     display: flex;
@@ -105,7 +105,7 @@ body {
 
 .swiper-container {
     width: 70%;
-    height: 100%;
+    /*  height: 100%;*/
     margin-top: 100px !important;
 }
 
@@ -184,8 +184,13 @@ body {
     margin-top: 14px;
 }
 
+.swiper-slide a span:hover {
+    color: #c7b299;
+}
+
 .swiper-pagination {
     margin-bottom: 42px;
+    margin-top: 12% !important;
 }
 
 .swiper-pagination-bullet {
@@ -193,3 +198,95 @@ body {
     width: 11px !important;
     height: 11px !important;
 }
+
+.content {
+    width: 1920px;
+    float: left;
+
+}
+
+.icons {
+    display: flex;
+}
+
+.icon-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 378px;
+    width: 275px;
+
+}
+
+.icon-items-2nd {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 33px;
+    width: 275px;
+
+}
+
+.icon-items-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icon-items-svg {
+    width: 49px;
+    height: 49px;
+    margin-left: 40%;
+    padding: 0 0 29px 0;
+
+}
+
+.icon-items-span {
+    width: 275px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding:  0 0 14px 0;
+    color: #555555;
+}
+
+.icon-items-p {
+    width: 275px;
+    color: #8c8c8c;
+    font-family: Montserrat, sans-serif;;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding:  0 0 25px 0;
+}
+
+.line {
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin-left: 40%;
+    margin-bottom: 80px;
+}
+
+.icon-items:hover .icon-items-link, .icon-items-2nd:hover .icon-items-link  {
+    fill: #c7b299 !important;
+}
+
+.icon-items:hover .icon-items-span, .icon-items-2nd:hover .icon-items-span {
+    color: #c7b299;
+}
+
+.icon-items:hover .line, .icon-items-2nd:hover .line {
+    background-color: #c7b299;
+}
+
+
+
+
+
+
+
+
