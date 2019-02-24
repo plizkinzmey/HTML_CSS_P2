@@ -235,11 +235,16 @@ body {
 }
 
 .icon-items-svg {
-    width: 49px;
+    width: 52px;
     height: 49px;
     margin-left: 40%;
     padding: 0 0 29px 0;
+    fill: #555555;
 
+}
+
+.icon-items-svg:hover {
+    fill: #c7b299;
 }
 
 .icon-items-span {
