@@ -731,8 +731,8 @@ body {
 }
 
 .excel-txt-h5 {
- /*   width: 657px;
-    height: 99px;*/
+    /*   width: 657px;
+       height: 99px;*/
     color: #8c8c8c;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
@@ -746,8 +746,8 @@ body {
 }
 
 .excel-list-item {
-/*    width: 546px;
-    height: 111px;*/
+    /*    width: 546px;
+        height: 111px;*/
     color: #8c8c8c;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
@@ -1024,7 +1024,7 @@ body {
 
 .about-waxcom-link {
     color: #d1d1d1;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -1047,7 +1047,7 @@ body {
 
 .post1-date {
     color: #363636;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
@@ -1057,19 +1057,19 @@ body {
 .post1-p {
     width: 251px;
     color: #555555;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     display: block;
     hyphens: manual;
     padding: 10px 0 21px 0;
-   border-bottom:  1px solid #252525;
+    border-bottom: 1px solid #252525;
 }
 
 .post2-date {
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
@@ -1080,19 +1080,19 @@ body {
 .post2-p {
     width: 263px;
     color: #c7b299;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     display: block;
     hyphens: manual;
     padding: 10px 0 21px 0;
-    border-bottom:  1px solid #252525;
+    border-bottom: 1px solid #252525;
 }
 
 .post3-date {
     color: #363636;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
@@ -1103,26 +1103,26 @@ body {
 .post3-p {
     width: 263px;
     color: #555555;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     display: block;
     hyphens: manual;
     padding: 10px 0 81px 0;
-    border-bottom:  1px solid #252525;
 }
 
 .twit-id {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     color: #00bff3;
+    text-decoration: none;
 }
 
 .twit-link {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -1133,7 +1133,7 @@ body {
 .twit1-p {
     width: 265px;
     color: #555555;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -1143,19 +1143,19 @@ body {
 .twit1-time {
     width: 265px;
     color: #363636;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
     display: block;
-    border-bottom:  1px solid #252525;
+    border-bottom: 1px solid #252525;
     padding: 10px 0 21px 0;
 }
 
 .twit2-p, .twit3-p {
     width: 265px;
     color: #555555;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -1166,19 +1166,19 @@ body {
 .twit2-time {
     width: 265px;
     color: #363636;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
     display: block;
-    border-bottom:  1px solid #252525;
+    border-bottom: 1px solid #252525;
     padding: 10px 0 21px 0;
 }
 
 .twit3-time {
     width: 265px;
     color: #363636;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
@@ -1186,7 +1186,146 @@ body {
     padding: 10px 0 21px 0;
 }
 
+.about-post, .about-twit, .about-widget {
+    display: flex;
+    flex-direction: column;
+    margin: 59px 0 0 41px;
+    padding: 0;
+
+}
+
 .about-widget-photos {
     display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.about-widget-photo1 {
+    width: 130px;
+    height: 98px;
+    padding: 0 10px 10px 0;
+}
+
+.about-widget-photo2 {
+    width: 130px;
+    height: 98px;
+    padding: 0 0 10px 0;
+}
+
+.about-widget-photo3 {
+    width: 130px;
+    height: 98px;
+    padding: 0 10px 0 0;
+}
+
+.footer {
+    background: #111111;
+    float: left;
+    width: 1920px;
+}
+
+.footer-items-left {
+    float: left;
+    display: flex;
     flex-direction: row;
+    padding: 45px 0 52px 376px;
+}
+
+.footer-items-right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 45px 374px 52px 0;
+}
+
+
+.footer-items-left-copyright, .footer-items-left-copyright-a, .footer-items-right-des {
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.footer-items-left-copyright-a:hover, .footer-items-right-a:hover {
+    color: #959595;
+}
+
+.footer-items-left-other-pp {
+    display: block;
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    border-left: 2px solid #252525;
+    border-right: 2px solid #252525;
+}
+
+.footer-items-left-other-faq {
+    display: block;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    border-right: 2px solid #252525;
+}
+
+.footer-items-left-other-sup {
+    display: block;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footer-items-left-other-pp:hover, .footer-items-left-other-faq:hover, .footer-items-left-other-sup:hover, .footer-items-right-only-a:hover {
+    color: #959595;
+}
+
+.footer-items-left-a {
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footer-items-right-a {
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 0 10px 0 0;
+    border-right: 2px solid #252525;;
+}
+
+.footer-items-right-only {
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0 0 0 10px;
+}
+
+.footer-items-right-only-a {
+    color: #555555;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
 }
